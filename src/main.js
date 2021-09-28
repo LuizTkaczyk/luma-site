@@ -6,6 +6,7 @@ import Footer from './components/Footer.vue'
 import Carousel from './components/Carousel.vue'
 import vuetify from './plugins/vuetify'
 import GlobalCss from './assets/style.css'
+import 'animate.css'
 
 Vue.config.productionTip = false
 Vue.component('app-header',Header)

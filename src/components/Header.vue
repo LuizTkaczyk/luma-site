@@ -1,5 +1,8 @@
 <template>
-  <img id="logo" src="@/assets/logos/Logo.png" />
+<transition enter-active-class="animate__animated animate__zoomIn"  appear> 
+<img id="logo" src="@/assets/logos/Logo.png" />
+</transition>
+  
 </template>
 
 <script>
